@@ -1,0 +1,31 @@
+{
+  "name": "node-easemob-im-server",
+  "version": "1.0.0",
+  "description": "node easemob-im sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ice-penguin/node-easemob-im-server.git"
+  },
+  "keywords": [
+    "node",
+    "easemob-im",
+    "sdk"
+  ],
+  "author": "penguinhj",
+  "license": "ISC",
+  "docs": "https://docs-im.easemob.com/im/server/basics/messages",
+  "bugs": {
+    "url": "https://github.com/ice-penguin/node-easemob-im-server/issues"
+  },
+  "homepage": "https://github.com/ice-penguin/node-easemob-im-server#readme",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "image-size": "^1.0.0",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  }
+}

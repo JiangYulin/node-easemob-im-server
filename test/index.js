@@ -1,26 +1,3 @@
-# Install 安装
-
-> use npm install
->
-> 使用 npm 安装
-
-```
-npm install node-easemob-im-server
-```
-
-> [download](https://github.com/ice-penguin/node-easemob-im-server) from github
->
-> 从 github[下载](https://github.com/ice-penguin/node-easemob-im-server)
-
-## Introduce 模块说明
-
-> 该模块支付部分环信im接口，详情参考环信[官网](http://docs-im.easemob.com/im/server/ready/user)
-
-## Sample example 使用说明
-
-### init Client 初始化客户端
-
-```
 /**
  * 初始化客户端
  * @param {object} params 
@@ -40,11 +17,10 @@ const params = {
     host:""
 };
 const client = require('../index').initClient(params);
-```
 
-### 注册单个用户(授权)
+console.log(client)
 
-```
+
 /**
  * 注册单个用户(授权)
  * @param {object} params 
@@ -63,11 +39,7 @@ let createUser = () => {
     })
 }
 // createUser()
-```
 
-### 设置推送昵称，与创建时无关
-
-```
 /**
  * 设置推送昵称，与创建时无关
  * @param {object} params 
@@ -86,11 +58,7 @@ let setNickName = () => {
 }
 
 // setNickName()
-```
 
-### 发送消息
-
-```
 /**
  * 发送消息
  * @param {object} params 
@@ -166,11 +134,7 @@ let sendMsg3 = () => {
 // setTimeout(() => {
 //     sendMsg3()
 // },2000)
-```
 
-### 初始化发送准备，图片、语音需要先进行上传
-
-```
 /**
  * 初始化发送准备，图片、语音需要先进行上传
  * @param {object} params 
@@ -192,5 +156,5 @@ let upload = () => {
 // setTimeout(() => {
 //     upload()
 // },2000)
-```
+
 
