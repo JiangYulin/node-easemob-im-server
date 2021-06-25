@@ -92,7 +92,7 @@ let setNickName = () => {
 
 ```
 /**
- * 发送消息
+ * 发送消息，会自动上传并发送
  * @param {object} params
  * params
  * @param {String} target_type 发送的目标类型；users：给用户发消息，chatgroups：给群发消息，chatrooms：给聊天室发消息
