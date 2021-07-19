@@ -97,6 +97,7 @@ let setNickName = () => {
  * params
  * @param {String} target_type 发送的目标类型；users：给用户发消息，chatgroups：给群发消息，chatrooms：给聊天室发消息
  * @param {Array} target 发送的目标,使用id数组
+ * @param {String} from 发送者
  * @param {Object} msg 消息对象
  *
  * msg
