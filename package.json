@@ -1,6 +1,6 @@
 {
   "name": "node-easemob-im-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node easemob-im sdk",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ice-penguin/node-easemob-im-server#readme",
   "dependencies": {
     "audio-loader": "^1.0.3",
+    "get-mp3-duration": "^1.0.0",
     "image-size": "^1.0.0",
     "lodash": "^4.17.21",
     "request": "^2.88.2"
